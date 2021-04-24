@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.header {
+  padding: 10px;
+  color: white;
+}
+.logo{
+  background: white;
+  color: black;
+  width: 50%;
+  padding: 10px;
+  border: 1px solid;
+}
+.logo h1 {
+  text-align: center;
+}
+.balance {
+  text-align: center;
+  padding:5px 40px;
+  background: rgb(231, 226, 226);
+  color: black;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid;
+}
+.balance h1 {
+  padding: 10px;
+}
+.currency {
+  background: rgb(228, 226, 226);
+  color: royalblue;
+  padding: 10px;
+  margin-top: 10px;
+}
+.input {
+  margin-top: 10px;
+  display: flex;
+}
+.input h1 {
+  background: rgb(214, 213, 213);
+  border: 1px solid;
+  padding: 5px;
+  margin: 0 5px;
+}
+.input input{
+  width: 100%;
+  margin-left: -10px;
+  background: rgb(209, 206, 206);
+  border: 1px solid gray;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+ button {
+  background: royalblue;
+  border: 1px solid royalblue;
+  width: 120px;
+  height: 50px;
+  color: white;
+  margin: 20px 9px;
+  border-radius: 10px;
+}
+
+h4 {
+  background: rgb(133, 129, 129);
+  padding: 10px;
+  color: white;
+}
+table {
+  width: 100%;
+  background: rgb(231, 228, 228);
+  font-weight: bold;
+  padding: 5px;
+  border: 1px solid;
+  margin-top: 2px;
+  box-shadow: 2px 2px 8px grey;
+}
+tr{
+  padding: 50px;
+  height: 40px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+    justify-content: space-around;
+  color: darkred;
+}
+.footer p {
+  padding: 5px;
+  font-weight: bold;
+}
